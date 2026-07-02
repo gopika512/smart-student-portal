@@ -10,6 +10,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
+        "https://smart-student-portal-brown.vercel.app",
         "https://smart-student-portal-brown.vercel.app/"
     ],
     allow_credentials=True,
